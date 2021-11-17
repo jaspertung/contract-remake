@@ -1,9 +1,13 @@
 <script>
+  import Nav from './Nav.svelte'
+  import Table from './Table.svelte'
+  import Menu from './Menu.svelte'
 </script>
 
 <main>
-  <h1>Hello world!</h1>
-  <button class="btn btn-active" role="button" aria-pressed="true">neutral</button> 
+  <Nav />
+  <!-- <Menu /> -->
+  <Table />
 </main>
 
 <style>
