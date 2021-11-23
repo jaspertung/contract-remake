@@ -1,10 +1,15 @@
 <script>
+  import Menu from './Menu.svelte'
+  let showSidebar = false
+
 </script>
+
+<Menu bind:show={showSidebar}
 
 <main>
   <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
     <div class="flex-none hidden lg:flex">
-      <button class="btn btn-square btn-ghost">
+      <button class="btn btn-square btn-ghost" on:click={() => showSidebar= !showSidebar}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
