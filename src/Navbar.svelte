@@ -1,16 +1,11 @@
 <script>
-  import Menu from './Menu.svelte'
-  import MenuIcons from './MenuIcons.svelte'
-  let showSidebar = false
+
 
 </script>
 
-<Menu bind:show={showSidebar} />
-<MenuIcons bind:show={showSidebar} />
-
 <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
   <div class="flex-none hidden lg:flex">
-    <button class="btn btn-square btn-ghost" on:click={() => showSidebar= !showSidebar}>
+    <!-- <button class="btn btn-square btn-ghost">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -24,7 +19,7 @@
           d="M4 6h16M4 12h16M4 18h16"
         />
       </svg>
-    </button>
+    </button> -->
   </div>
   <div class="flex-1 hidden px-2 mx-2 lg:flex">
     <span class="text-lg font-bold"> daisyUI </span>
