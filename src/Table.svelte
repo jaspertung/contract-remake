@@ -1,11 +1,11 @@
-<div class="overflow-x-auto">
-    <table class="table w-full table-compact">
+<div class="mx-4">
+    <table class="table table-compact">
       <tbody>
         <tr class="hover">
             <td rowspan="2">Cy Ganderton</td>
             <td>12345678</td>
             <td>Standard</td>
-            <td rowspan="2" class="text-right"> Dec 16</td>
+            <td rowspan="2"> Dec 16</td>
         </tr>
         <tr class="hover">
             <td>12345678</td>

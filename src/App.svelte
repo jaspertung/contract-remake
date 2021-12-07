@@ -5,31 +5,27 @@
 
 </script>
 
-<main>
-  <div class="container">
-    <div class="flex">
-      <!-- <Navbar /> -->
-      <div>
-        <Sidebar />
-      </div>
-      <div>
-        <Table />
-      </div>
+<main class="flex">
+    <!-- <Navbar /> -->
+    <div class="flex-grow flex-shrink">
+      <Sidebar />
     </div>
-  </div>
+    <div class="flex-grow flex-shrink w-full">
+      <Table />
+    </div>
 </main>
 
 <style>
-  :global(body) {
+  /* :global(body) {
       margin: 0;
       padding: 0;
-    }
-	main {
+    } */
+	/* main {
 		display: grid;
 		grid-template:
 			"nav content" min-content
-	}
-	.content {
+	} */
+	/* .content {
 		grid-area: content;
-	}
+	} */
 </style>

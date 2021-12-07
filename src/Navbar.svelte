@@ -3,7 +3,7 @@
 
 </script>
 
-<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content w-screen">
   <div class="flex-none hidden lg:flex">
     <!-- <button class="btn btn-square btn-ghost">
       <svg
