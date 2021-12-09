@@ -16,7 +16,6 @@
             <span>12345678</span>
             <span>12345678</span>
           </div>
-          <!-- whitespace -->
         </td>
         <td>
           <div class="flex flex-col">
