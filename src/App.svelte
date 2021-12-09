@@ -5,15 +5,28 @@
 
 </script>
 
-<main class="flex">
-    <!-- <Navbar /> -->
+<!-- <main class="flex">
+    
     <div class="flex-grow flex-shrink">
-      <Sidebar />
+      
     </div>
     <div class="flex-grow flex-shrink w-full">
-      <Table />
+      
     </div>
-</main>
+</main> -->
+
+<div class="grid grid-cols-12 overflow-hidden">
+  <div class="col-span-12">
+    <Navbar />
+  </div>
+  <div class="col-span-2">
+    <Sidebar />
+  </div>
+  <div class="col-span-10">
+    <Table />
+  </div>
+</div>
+
 
 <style>
   /* :global(body) {
