@@ -5,13 +5,13 @@
 (    /** @type {any} */ _) => expanded = !expanded
 </script>
 
-<nav class:expanded class="flex sticky">
+<nav class:expanded class="flex sticky h-screen">
   <button class="btn btn-square btn-ghost absolute cursor-pointer" on:click={toggleExpanded}>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   </button>
-  <ul class="menu w-60 border-r bg-base-100 essential">
+  <ul class="menu w-60 border-r essential">
     <!-- <li class="menu-title">
       <span>
         Menu Title
@@ -63,8 +63,6 @@
 
 <style>
   nav {
-    /* grid-area: nav; */
-    height: 100vw;
     transition: ease-out 200ms;
     width: 60px;
     overflow: hidden;
