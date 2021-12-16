@@ -11,14 +11,31 @@
     <tbody>
       <tr class="hover group">
         <td>
-          <div>
-            <span>Cy Ganderton</span>
-            <div class="hidden card text-center shadow-2xl lg:card-side bg-accent text-accent-content">
-              <div class="card-body hover:block">
-                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p> 
+          <div class="relative hover-trigger">
+            <span>Cy Person</span>
+            <div class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target z-50">
+              <div class="card-body">
+                <div class="form-control">
+                  <label class="label" for="custodian">
+                    <span class="label-text">Custodian</span>
+                  </label> 
+                  <input type="text" placeholder="IPX" disabled="disabled" class="input input-bordered">
+                  <label class="label" for="account-number">
+                    <span class="label-text">Number</span>
+                  </label> 
+                  <input type="text" placeholder="8934723" disabled="disabled" class="input input-bordered">
+                  <label class="label" for="account-name">
+                    <span class="label-text">Account Name</span>
+                  </label> 
+                  <input type="text" placeholder="Cy Person" disabled="disabled" class="input input-bordered">
+                  <label class="label" for="household">
+                    <span class="label-text">Household</span>
+                  </label> 
+                  <input type="text" placeholder="Cy Person" disabled="disabled" class="input input-bordered">
+                </div>                
                 <div class="justify-center card-actions">
-                  <button class="btn btn-accent">Start now</button> 
-                  <button class="btn btn-accent">More info</button>
+                  <button class="btn btn-accent">Delete</button> 
+                  <button class="btn btn-accent">Save</button>
                 </div>
               </div>
             </div>
@@ -44,7 +61,20 @@
 
 
       <tr class="hover">
-        <td>Hart Hagerty</td>
+        <td>
+          <div class="relative hover-trigger">
+            <span>Cy Human</span>
+            <div class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target">
+              <div class="card-body">
+                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p> 
+                <div class="justify-center card-actions">
+                  <button class="btn btn-accent">Start now</button> 
+                  <button class="btn btn-accent">More info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
         <td>12345678</td>
         <td>Zemlak, Daniel and Leannon</td>
         <td class="text-right">12/5/2020</td>
@@ -108,5 +138,10 @@
 </div>
 
 <style>
-
+.hover-trigger .hover-target {
+  display: none;
+}
+.hover-trigger:hover .hover-target {
+  display: block;
+}
 </style>
