@@ -11,64 +11,121 @@
     <tbody>
       <tr class="hover group">
         <td>
+          <!-- <div>
+            <label for="my-modal-2" class="btn btn-primary modal-button">open modal</label>
+            <input type="checkbox" id="my-modal-2" class="modal-toggle hidden"> 
+            <div class="modal">
+              <div class="modal-box">
+                <p>Enim dolorem dolorum omnis atque necessitatibus.</p> 
+                <div class="modal-action">
+                  <label for="my-modal-2" class="btn btn-primary">Accept</label> 
+                  <label for="my-modal-2" class="btn">Close</label>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- contract modal -->
+          <a href="/components/modal#my-modal">modal </a>
+          <div id="my-modal" class="modal">
+            <div class="modal-box">
+              <p>
+                Enim dolorem dolorum omnis atque necessitatibus.
+              </p>
+              <div class="modal-action">
+                <a href="/components/modal#" class="btn btn-primary">Accept</a>
+                <a href="/components/modal#" class="btn">Close</a>
+              </div>
+            </div>
+          </div>
+          <!-- account name -->
           <div class="relative hover-trigger">
             <span>Cy Person</span>
-            <div class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target z-50">
+            <!-- account info card -->
+            <div
+              class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target z-50"
+            >
               <div class="card-body">
-                <div class="form-control">
+                <div class="form-control grid ">
                   <label class="label" for="custodian">
                     <span class="label-text">Custodian</span>
-                  </label> 
-                  <input type="text" placeholder="IPX" disabled="disabled" class="input input-bordered">
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="IPX"
+                    disabled="disabled"
+                    class="input input-bordered"
+                  />
                   <label class="label" for="account-number">
                     <span class="label-text">Number</span>
-                  </label> 
-                  <input type="text" placeholder="8934723" disabled="disabled" class="input input-bordered">
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="8934723"
+                    disabled="disabled"
+                    class="input input-bordered"
+                  />
                   <label class="label" for="account-name">
                     <span class="label-text">Account Name</span>
-                  </label> 
-                  <input type="text" placeholder="Cy Person" disabled="disabled" class="input input-bordered">
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Cy Person"
+                    disabled="disabled"
+                    class="input input-bordered"
+                  />
                   <label class="label" for="household">
                     <span class="label-text">Household</span>
-                  </label> 
-                  <input type="text" placeholder="Cy Person" disabled="disabled" class="input input-bordered">
-                </div>                
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Cy Person"
+                    disabled="disabled"
+                    class="input input-bordered"
+                  />
+                </div>
                 <div class="justify-center card-actions">
-                  <button class="btn btn-accent">Delete</button> 
+                  <button class="btn btn-accent">Delete</button>
                   <button class="btn btn-accent">Save</button>
                 </div>
               </div>
             </div>
           </div>
         </td>
+        <!-- account number -->
         <td>
           <div class="flex flex-col">
             <span>12345678</span>
             <span>12345678</span>
           </div>
         </td>
+        <!-- fee schedule -->
         <td>
           <div class="flex flex-col">
             <span>Standard</span>
             <span>No Bill</span>
           </div>
         </td>
+        <!-- date -->
         <td class="text-right">
           <span>Dec 16</span>
           <span class="hidden group-hover:block">hello</span>
         </td>
       </tr>
 
-
-      <tr class="hover">
+      <tr class="hover group">
         <td>
           <div class="relative hover-trigger">
             <span>Cy Human</span>
-            <div class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target">
+            <div
+              class="card text-center shadow-2xl lg:card-side bg-accent text-accent-content absolute hover-target"
+            >
               <div class="card-body">
-                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p> 
+                <p>
+                  Rerum reiciendis beatae tenetur excepturi aut pariatur est
+                  eos.
+                </p>
                 <div class="justify-center card-actions">
-                  <button class="btn btn-accent">Start now</button> 
+                  <button class="btn btn-accent">Start now</button>
                   <button class="btn btn-accent">More info</button>
                 </div>
               </div>
@@ -77,13 +134,20 @@
         </td>
         <td>12345678</td>
         <td>Zemlak, Daniel and Leannon</td>
-        <td class="text-right">12/5/2020</td>
+        <td class="text-right">
+          <span>Dec 16</span>
+          <span class="hidden group-hover:block">hello</span>
+        </td>
       </tr>
-      <tr class="hover">
+
+      <tr class="hover group">
         <td>Brice Swyre</td>
         <td>12345678</td>
         <td>Carroll Group</td>
-        <td class="text-right">8/15/2020</td>
+        <td class="text-right">
+          <span>Dec 16</span>
+          <span class="hidden group-hover:block">hello</span>
+        </td>
       </tr>
       <tr class="hover">
         <td>Marjy Ferencz</td>
@@ -138,10 +202,10 @@
 </div>
 
 <style>
-.hover-trigger .hover-target {
-  display: none;
-}
-.hover-trigger:hover .hover-target {
-  display: block;
-}
+  .hover-trigger .hover-target {
+    display: none;
+  }
+  .hover-trigger:hover .hover-target {
+    display: block;
+  }
 </style>

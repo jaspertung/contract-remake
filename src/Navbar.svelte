@@ -22,7 +22,8 @@
     </button> -->
   </div>
   <div class="flex-1 hidden px-2 mx-2 lg:flex">
-    <span class="text-lg font-bold"> daisyUI </span>
+    <a href="/" class="text-lg font-bold">daisyUI</a>
+    <!-- <span class="text-lg font-bold"> daisyUI </span> -->
   </div>
   <div class="flex-1 lg:flex-none">
     <div class="form-control border rounded-md">
