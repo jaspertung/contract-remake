@@ -28,9 +28,7 @@
           <a href="/components/modal#my-modal">modal </a>
           <div id="my-modal" class="modal">
             <div class="modal-box">
-              <p>
-                Enim dolorem dolorum omnis atque necessitatibus.
-              </p>
+              <p>Enim dolorem dolorum omnis atque necessitatibus.</p>
               <div class="modal-action">
                 <a href="/components/modal#" class="btn btn-primary">Accept</a>
                 <a href="/components/modal#" class="btn">Close</a>
@@ -107,8 +105,23 @@
         </td>
         <!-- date -->
         <td class="text-right">
-          <span>Dec 16</span>
-          <span class="hidden group-hover:block">hello</span>
+          <span class="group-hover:hidden">Dec 16</span>
+          <!-- hover icons -->
+          <div class="hidden group-hover:block">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block w-5 h-5 mr-2 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+              />
+            </svg>
+          </div>
         </td>
       </tr>
 
@@ -135,17 +148,31 @@
         <td>12345678</td>
         <td>Zemlak, Daniel and Leannon</td>
         <td class="text-right">
-          <span>Dec 16</span>
-          <span class="hidden group-hover:block">hello</span>
+          <span class="group-hover:hidden">Dec 16</span>
+          <div class="hidden group-hover:block">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block w-5 h-5 mr-2 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+              />
+            </svg>
+          </div>
         </td>
       </tr>
 
-      <tr class="hover group">
+      <tr class=" hover group">
         <td>Brice Swyre</td>
         <td>12345678</td>
         <td>Carroll Group</td>
         <td class="text-right">
-          <span>Dec 16</span>
+          <span class="group-hover:hidden">Dec 16</span>
           <span class="hidden group-hover:block">hello</span>
         </td>
       </tr>
